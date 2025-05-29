@@ -95,7 +95,11 @@
         </div>
         <div class="scrollable-content">
 
-          <p>Content for Groups, Rings, & Fields goes here...</p>
+          <p>Similar to algebraic structures, it sounded like a bunch of abstract math jargon. Something I'd probably never encounter in life if I never took Computer Science.</p>
+
+          <p>A familiar face came up during the lectures which was % or modulo. This was an operator that was often used in odd or even checkers.</p>
+          <p>I was shocked to find out that modulo arithmetic was actually an example of a ring in abstract algebra. I thought that thing was just something that computers could do, like find the remainder after division.</p>
+          <p>It turns out that modulo isn't just a tool in programming, but part of a world that helps us understand patterns, cycles, and structures. Learning about groups, rings & fields gave me a new appreciation for simple operations people use every day in Computer Science.</p>
           <!--ADD MORE CONTENT-->
 
         </div>
