@@ -1,0 +1,19 @@
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="16.975" y1="32.383" x2="30.5304" y2="24.5567" stroke="black" stroke-width="0.1"/>
+<line y1="-0.05" x2="15.6525" y2="-0.05" transform="matrix(-0.866025 -0.5 -0.5 0.866025 17 32.4263)" stroke="black" stroke-width="0.1"/>
+<line y1="-0.05" x2="15.6525" y2="-0.05" transform="matrix(-0.866025 -0.5 -0.5 0.866025 17 16.8263)" stroke="black" stroke-width="0.1"/>
+<line y1="-0.05" x2="15.6525" y2="-0.05" transform="matrix(-0.866025 -0.5 -0.5 0.866025 30.5 8.9762)" stroke="black" stroke-width="0.1"/>
+<line x1="16.975" y1="16.783" x2="30.5304" y2="8.95675" stroke="black" stroke-width="0.1"/>
+<line x1="3.47476" y1="8.94681" x2="17.0302" y2="1.12057" stroke="black" stroke-width="0.1"/>
+<line x1="16.95" y1="32.4263" x2="16.95" y2="16.7763" stroke="black" stroke-width="0.1"/>
+<line x1="30.5" y1="24.5763" x2="30.5" y2="8.92629" stroke="black" stroke-width="0.1"/>
+<line x1="3.50005" y1="24.5763" x2="3.50005" y2="8.92629" stroke="black" stroke-width="0.1"/>
+<ellipse cx="17" cy="9" rx="3.5" ry="3" fill="black"/>
+<ellipse cx="6.5" cy="15" rx="1.5" ry="2" fill="#EB2222"/>
+<ellipse cx="12.5" cy="18" rx="1.5" ry="2" fill="#EB2222"/>
+<ellipse cx="6.5" cy="22" rx="1.5" ry="2" fill="#EB2222"/>
+<ellipse cx="12" cy="25" rx="1.5" ry="2" fill="#EB2222"/>
+<ellipse cx="26.5" cy="16" rx="1.5" ry="2" fill="black"/>
+<ellipse cx="20.5" cy="19" rx="1.5" ry="2" fill="black"/>
+<ellipse cx="25" cy="24" rx="1.5" ry="2" fill="black"/>
+</svg>

@@ -1,0 +1,237 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  background-image: url('/bg-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+
+}
+
+
+/* window + icons */
+.window-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1124px;
+  z-index: 10;
+}
+
+.window-container .window-head {
+  transform: none;
+  margin-bottom: -2px; /* Prevents double border effect */
+}
+
+.window-container .main-window {
+  position: relative;
+  transform: none;
+  left: 0;
+  top: 0;
+}
+
+/* main window body */
+.main-window {
+  height: 80vh;
+  max-height: 612px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 0px 0px 16px 16px;
+  opacity: 0.8;
+  filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* window head */
+.window-head {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+  height: 3rem;
+  max-width: 1124px;
+
+  /*color styling*/
+  background: #232b2b;
+  border-width: 2px 2px 0px 2px;
+  border-style: solid;
+  border-color: #232b2b;
+  border-radius: 16px 16px 0px 0px;
+
+  text-align:center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.window-head p {
+  margin: 0;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(255, 233, 233, 0.3);
+}
+/* window circle */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1242px;
+top: 191px;
+
+background: #C2EDFF;
+border: 1px solid #99815E;
+border-radius: 50px; */
+
+
+/* icon1 */
+.desktop-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: #ffffff;
+  border: 2px solid #232b2b;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.counting {
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/counting.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  opacity: 1;
+
+}
+
+.algebraic-structures {
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/algebraicstructures.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  opacity: 1;
+
+}
+.groups-rings-fields {
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/groupsringsfields.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  opacity: 1;
+
+
+}
+
+.discrete-probability{
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/dice.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  opacity: 1;
+
+
+}
+
+.graphs {
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/graphs.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  opacity: 1;
+
+
+}
+
+.desktop-icon:hover {
+  background-color: #e9e9e9;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.35);
+  transform: translate(-2px, -2px);
+  transition: all 0.3s;
+  opacity: 1;
+
+}
+
+/* This preserves the background image on hover for specific icons */
+.graphs:hover {
+  background-image: url('./assets/graphs.svg');
+}
+
+.counting:hover {
+  background-image: url('./assets/counting.svg');
+}
+.discrete-probability:hover {
+  background-image: url('./assets/dice.svg');
+}
+
+
+.algebraic-structures:hover {
+  background-image: url('./assets/algebraicstructures.svg');
+  transform: translate(-2px, -2px) rotate(-90deg);
+}
+.groups-rings-fields:hover {
+  background-image: url('./assets/groupsringsfields.svg');
+}
+
+/* You can add similar rules for other icons
+.counting:hover {
+  background-image: url('./assets/counting.svg');
+}
+
+.algebraic-structures:hover {
+  background-image: url('./assets/algebraic-structures.svg');
+} */
+
+.icon-row {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 11em;
+}
+
+/* desktop icon container */
+.desktop-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-title {
+  margin: 8px 0 0 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #232b2b;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-self: center;
+}
+
