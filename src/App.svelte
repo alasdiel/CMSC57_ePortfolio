@@ -109,8 +109,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+          <p>In CMSC 57, we talked about probability. The concepts allow us to help make decisions, if we were uncertain.</p>
+          <p>When I think of a practical application of discrete probability, I think of <s>gambling</s> artificial intelligence, which is largely based on choosing random inputs that create the ideal output.</p>
+          <p>It was fun seeing counting being applied again, despite there being a noticeable gap given by algebraic structures in between. Applying counting to probability opened up a lot of possibilities that would've taken forever to count by hand.</p>
 
-          <p>Content for Discrete Probability goes here...</p>
           <!--ADD MORE CONTENT-->
 
         </div>
@@ -195,4 +197,5 @@
     font-weight: 1000; 
     text-decoration: underline;
   }
+
 </style>
