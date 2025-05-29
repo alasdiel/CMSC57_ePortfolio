@@ -54,9 +54,13 @@
         </div>
         <div class="scrollable-content">
 
-          <p>Content for Counting goes here...</p>
-          <!--ADD MORE CONTENT-->
-
+          <p>I remember the first time <b>counting</b> was mentioned. It was a funny moment, because "counting" sounds like something straight out of a kid's learning exercise. 
+            Of course, it wasn't just counting digits from 1-100, but something a little more complex.</p>
+          <p>It was about <b>counting possibilities</b>, how many ways something <i>can</i> happen, and how many ways it <i>can’t</i>.
+             Suddenly, “counting” wasn’t just about how many fingers you could count up to in kindergarten. It was about factorials, permutations, combinations, and the pigeonhole principle, 
+             tools for solving problems that look simple until you realize they’re layered with logic.  </p>
+          <p>After a while, I realized that counting followed me everywhere, as a Computer Science student and as a developing developer.</p>
+          <p>I realized that, what started as a funny name in class turned out to be one of the most useful skills a Computer Scientist should have.</p>
         </div>
        </div>
 
@@ -116,7 +120,7 @@
 
           <p>Content for Graphs goes here...</p>
           <!--ADD MORE CONTENT-->
-          
+
         </div>
        </div>
       {/if}
@@ -134,10 +138,20 @@
     color: #fff;
     border-radius: 25%;
   }
+
+  .content-header button:hover {
+    background-color: #ff0000;
+  }
+
+  .content-header h2 {
+    margin: 0;
+    font-size: 3rem;
+  }
   .content-window {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-weight: 600;
 
   }
 
@@ -154,6 +168,7 @@
     flex: 1;
     overflow-y: auto;
     padding: 1rem;
+    font-size: 1.3rem;
   }
 
   .desktop-icon-container {
@@ -163,5 +178,10 @@
 
   .desktop-icon-container:hover {
     transform: scale(1.05);
+  }
+
+  b {
+    font-weight: 1000; 
+    text-decoration: underline;
   }
 </style>
