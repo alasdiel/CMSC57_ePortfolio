@@ -125,7 +125,11 @@
         </div>
         <div class="scrollable-content">
 
-          <p>When my professor told us that this was her favorite Computer Science topic ever, <b>#felt</b>, to be honest.  </p>
+          <p>When my professor told us that this was one of her favorite
+             Computer Science topic ever, <b>#felt</b>, to be honest. This was also one of my favorite topics in Computer Science.</p>
+          <p>This topic was EVERYWHERE in Computer Science. Even outside it, graphs show up everywhere. Take Gantt charts in research writing, for example, they're basically digraphs that help visualize project schedules and dependencies.</p>
+          <p>Artificial intelligence relies heavily on graphs. Neural networks are built upon weighted graphs, with multiple layers made with nodes (neurons) and edges, to achieve the ideal probability output.</p>
+          <p>Without graphs, modern AI as we know it wouldn't be as possible.</p>
           <!--ADD MORE CONTENT-->
 
         </div>
