@@ -53,8 +53,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+
           <p>Content for Counting goes here...</p>
           <!--ADD MORE CONTENT-->
+
         </div>
        </div>
 
@@ -66,8 +68,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+
           <p>Content for Algebraic Structures and Groups goes here...</p>
           <!--ADD MORE CONTENT-->
+
         </div>
        </div>
 
@@ -79,8 +83,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+
           <p>Content for Groups, Rings, & Fields goes here...</p>
           <!--ADD MORE CONTENT-->
+
         </div>
        </div>
 
@@ -92,8 +98,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+
           <p>Content for Discrete Probability goes here...</p>
           <!--ADD MORE CONTENT-->
+
         </div>
        </div>
 
@@ -105,8 +113,10 @@
           <button on:click={closeWindow} class="close-button">X</button>
         </div>
         <div class="scrollable-content">
+
           <p>Content for Graphs goes here...</p>
           <!--ADD MORE CONTENT-->
+          
         </div>
        </div>
       {/if}
