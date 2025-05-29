@@ -12,7 +12,7 @@
 <main>
   <div class="window-container">
     <div class="window-head">
-      <p>alex cmsc 57 ePortfolio yayayay !!</p>
+      <p>alex cmsc 57 ePortfolio !!</p>
     </div>
     <div class="main-window">
 
@@ -73,7 +73,14 @@
         </div>
         <div class="scrollable-content">
 
-          <p>Content for Algebraic Structures and Groups goes here...</p>
+          <p>Algebraic structures, at first glance, seem really <b>abstract</b>, which makes sense since it's basically an introduction to abstract algebra. 
+            Groups were an interesting concept to make my head wrap around. (still confuses me)</p>
+
+          <p>I realized that, algebraic structures were something I've already seen before. For example, shape rotations in graphic design, that's an example of an application of group theory. Vector space translations, something that's widely used in artificial intelligence infrastructure, was an application of that "rotation."</p>
+          
+          <p>As I went through the material, I realized that I've "played these games" before, and even without going through the course,
+             I was able to understand what they were for back then.</p>
+          <p>CMSC 57 gave me the vocabulary and structure to help me describe them better than I did before.</p>
           <!--ADD MORE CONTENT-->
 
         </div>
@@ -118,7 +125,7 @@
         </div>
         <div class="scrollable-content">
 
-          <p>Content for Graphs goes here...</p>
+          <p>When my professor told us that this was her favorite Computer Science topic ever, <b>#felt</b>, to be honest.  </p>
           <!--ADD MORE CONTENT-->
 
         </div>
